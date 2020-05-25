@@ -1,0 +1,17 @@
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.AssemblyInfo.cs
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.deps.json
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.dll
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.dll
+C:\Users\Ejay\source\sideprojects.repo\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.deps.json
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.dll
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.pdb
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.AssemblyInfo.cs
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.dll
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Infrastructure\obj\Debug\netstandard2.0\CleanArchitecture.Infrastructure.pdb

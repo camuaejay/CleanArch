@@ -1,0 +1,14 @@
+﻿CREATE TABLE [dbo].[Users]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY, 
+    [Username] NVARCHAR(50) NOT NULL, 
+    [Password] NVARCHAR(MAX) NOT NULL, 
+    [FirstName] NVARCHAR(250) NOT NULL, 
+    [MiddleName] NVARCHAR(250) NULL, 
+    [LastName] NVARCHAR(250) NULL, 
+    [BirthDate] DATETIME NOT NULL, 
+    [EmailAddress] NVARCHAR(MAX) NOT NULL, 
+    [Deleted] BIT NOT NULL DEFAULT 0, 
+    [DateCreated] DATETIME NOT NULL DEFAULT GETUTCDATE(), 
+    [DateUpdated] DATETIME NOT NULL DEFAULT GETUTCDATE() 
+)
