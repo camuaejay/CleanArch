@@ -11,5 +11,7 @@
         SqlCommand SaveUser(SaveUserRequest request);
 
         SqlCommand AuthenticateUser(AuthenticateUserRequest request);
+
+        SqlCommand GetUserByUsername(string username);
     }
 }

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "sg2BielN/Hr2KOZn08yEZpFOrTP/x7YXsbMofs7wHM3SB+YRoaSwpDXedAzCsanmmsDY7CTI5wbmYZ+XsZPguA==",
+  "dgSpecHash": "ZjKmWu3vJtayEx56J1bFfYe6GlXxyc03E8UBWw7FFBoAw3/zelCaMhEN2EbckWmEPlgOVJFMpJJxhnUkd/ssew==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ejay\\source\\sideprojects.repo\\CleanArch\\CleanArchitecture\\CleanArchitecture.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+    "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.4\\microsoft.aspnetcore.authentication.jwtbearer.3.1.4.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -25,6 +26,8 @@
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.6.0\\microsoft.identitymodel.jsonwebtokens.6.6.0.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.identitymodel.logging\\6.6.0\\microsoft.identitymodel.logging.6.6.0.nupkg.sha512",
+    "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.identitymodel.protocols\\5.5.0\\microsoft.identitymodel.protocols.5.5.0.nupkg.sha512",
+    "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\5.5.0\\microsoft.identitymodel.protocols.openidconnect.5.5.0.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.6.0\\microsoft.identitymodel.tokens.6.6.0.nupkg.sha512",
     "C:\\Users\\Ejay\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

@@ -26,7 +26,7 @@ namespace CleanArchitecture.Infrastructure.Helpers
             var bytes = hash.ComputeHash(Encoding.ASCII.GetBytes(pass));
             var encrypted = BitConverter.ToString(bytes);
             var result = encrypted.Replace("-", "");
-
+                
             return result;
         }
     }

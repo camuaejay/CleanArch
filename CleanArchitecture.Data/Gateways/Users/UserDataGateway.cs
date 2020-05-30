@@ -8,6 +8,7 @@
     using CleanArchitecture.Infrastructure.Models.Requests.Users;
     using CleanArchitecture.Infrastructure.Models.Responses.Users;
     using CleanArchitecture.Infrastructure.Models.Users;
+    using Microsoft.IdentityModel.Logging;
 
     public class UserDataGateway : IUserDataGateway
     {
@@ -53,6 +54,29 @@
             return response;
         }
 
+        public async Task<UserModel> GetUserByUsername(string username)
+        {
+            var response = new UserModel();
+
+            try
+            {
+                var command = this.userSqlCommandFactory.GetUserByUsername(username);
+                var result = await this.dataAccess.ExecuteReader(command);
+
+                if (result.DataTable.Rows.Count == 1)
+                {
+                    response = BuildUserFromDataRow(result.DataTable.Rows[0]);
+                }
+                
+            }
+            catch (Exception ex)
+            {
+                LogHelper.LogWarning(ex.Message);
+            }
+
+            return response;
+        }
+
         public async Task<SaveUserResponse> SaveUser(SaveUserRequest request)
         {
             var response = new SaveUserResponse();
@@ -86,7 +110,6 @@
             user.Username = row["Username"].ToString();
             user.EmailAddress = row["EmailAddress"].ToString();
             user.BirthDate = (DateTime) row["BirthDate"];
-
 
             return user;
         }

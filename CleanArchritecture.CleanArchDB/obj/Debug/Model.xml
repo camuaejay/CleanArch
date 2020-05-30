@@ -181,6 +181,54 @@ RETURN 0]]></Value>
 				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[AuthenticateUser]&#xD;&#xA;&#x9;@Username VARCHAR(MAX),&#xD;&#xA;&#x9;@Password VARCHAR(MAX)&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
+		<Element Type="SqlProcedure" Name="[dbo].[GetUserByUserName]">
+			<Property Name="BodyScript">
+				<Value><![CDATA[
+	SELECT TOP 1 * FROM Users where Username = @Username;
+RETURN 0]]></Value>
+			</Property>
+			<Property Name="IsAnsiNullsOn" Value="True" />
+			<Relationship Name="BodyDependencies">
+				<Entry>
+					<References Name="[dbo].[Users]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[Users].[Username]" />
+				</Entry>
+				<Entry>
+					<References Name="[dbo].[GetUserByUserName].[@Username]" />
+				</Entry>
+			</Relationship>
+			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[GetUserByUserName].[@Username]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Property Name="IsMax" Value="True" />
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[varchar]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
+			</Relationship>
+			<Relationship Name="Schema">
+				<Entry>
+					<References ExternalSource="BuiltIns" Name="[dbo]" />
+				</Entry>
+			</Relationship>
+			<Annotation Type="SysCommentsObjectAnnotation">
+				<Property Name="Length" Value="137" />
+				<Property Name="StartLine" Value="1" />
+				<Property Name="StartColumn" Value="1" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[GetUserByUserName]&#xD;&#xA;&#x9;@Username VARCHAR(MAX)&#xD;&#xA;AS" />
+			</Annotation>
+		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[SaveUser]">
 			<Property Name="BodyScript">
 				<Value><![CDATA[

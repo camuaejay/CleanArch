@@ -21,3 +21,4 @@ C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Data\bin\Debu
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Data\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.dll
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Data\bin\Debug\netstandard2.0\CleanArchitecture.Infrastructure.pdb
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Data\obj\Debug\netstandard2.0\CleanArchitecture.Data.csproj.CopyComplete
+C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchitecture.Data\obj\Debug\netstandard2.0\CleanArchitecture.Data.csproj.CoreCompileInputs.cache

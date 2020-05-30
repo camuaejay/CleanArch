@@ -20,6 +20,18 @@
             return command;
         }
 
+        public SqlCommand GetUserByUsername(string username)
+        {
+            var command = new SqlCommand();
+
+            command.CommandText = "[dbo].[GetUserByUsername]";
+            command.CommandType = CommandType.StoredProcedure;
+
+            command.Parameters.AddWithValue("@UserName", username);
+
+            return command;
+        }
+
         public SqlCommand SaveUser(SaveUserRequest request)
         {
             var command = new SqlCommand();

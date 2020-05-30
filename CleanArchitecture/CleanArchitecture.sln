@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.API", "CleanArchitecture.API.csproj", "{02DEA90F-7BAA-4D0F-90D2-75F28CA0A533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastructure", "..\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj", "{CBB05746-0764-44A9-9903-7A9B39458B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infrastructure", "..\CleanArchitecture.Infrastructure\CleanArchitecture.Infrastructure.csproj", "{CBB05746-0764-44A9-9903-7A9B39458B9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Services", "..\CleanArchitecture.Services\CleanArchitecture.Services.csproj", "{A0248243-7C8D-4BE7-B519-FBE3C27857FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Services", "..\CleanArchitecture.Services\CleanArchitecture.Services.csproj", "{A0248243-7C8D-4BE7-B519-FBE3C27857FC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Data", "..\CleanArchitecture.Data\CleanArchitecture.Data.csproj", "{FD49DEF8-6ADB-4032-9C6A-7A751A32EFD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Data", "..\CleanArchitecture.Data\CleanArchitecture.Data.csproj", "{FD49DEF8-6ADB-4032-9C6A-7A751A32EFD3}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CleanArchritecture.CleanArchDB", "..\CleanArchritecture.CleanArchDB\CleanArchritecture.CleanArchDB.sqlproj", "{2A6A04FC-21CB-42D0-842D-A37701ABFB78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.API", "CleanArchitecture.API.csproj", "{869E9287-D08B-460F-B264-1504796650AA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{02DEA90F-7BAA-4D0F-90D2-75F28CA0A533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{02DEA90F-7BAA-4D0F-90D2-75F28CA0A533}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{02DEA90F-7BAA-4D0F-90D2-75F28CA0A533}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{02DEA90F-7BAA-4D0F-90D2-75F28CA0A533}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CBB05746-0764-44A9-9903-7A9B39458B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CBB05746-0764-44A9-9903-7A9B39458B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBB05746-0764-44A9-9903-7A9B39458B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -41,6 +37,10 @@ Global
 		{2A6A04FC-21CB-42D0-842D-A37701ABFB78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A6A04FC-21CB-42D0-842D-A37701ABFB78}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2A6A04FC-21CB-42D0-842D-A37701ABFB78}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{869E9287-D08B-460F-B264-1504796650AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869E9287-D08B-460F-B264-1504796650AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869E9287-D08B-460F-B264-1504796650AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869E9287-D08B-460F-B264-1504796650AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

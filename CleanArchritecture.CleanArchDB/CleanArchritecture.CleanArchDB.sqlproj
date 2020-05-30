@@ -63,6 +63,7 @@
     <Build Include="Tables\Users.sql" />
     <Build Include="StoredProcedures\SaveUser.sql" />
     <Build Include="StoredProcedures\AuthenticateUser.sql" />
+    <Build Include="StoredProcedures\GetUserByUsername.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="CleanArchritecture.CleanArchDB.refactorlog" />
