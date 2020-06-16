@@ -12,9 +12,5 @@ C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\bin\Debug\CleanArchritecture.CleanArchDB.dll
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\bin\Debug\CleanArchritecture.CleanArchDB.pdb
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\obj\Debug\CleanArchritecture.CleanArchDB.sqlprojAssemblyReference.cache
-C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\obj\Debug\Model.xml
-C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\obj\Debug\refactor.xml
-C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\obj\Debug\postdeploy.sql
-C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\obj\Debug\predeploy.sql
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\obj\Debug\CleanArchritecture.CleanArchDB.dll
 C:\Users\Ejay\source\sideprojects.repo\CleanArch\CleanArchritecture.CleanArchDB\obj\Debug\CleanArchritecture.CleanArchDB.pdb
