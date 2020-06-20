@@ -12,7 +12,5 @@
         Task<AuthenticateUserResponse> AuthenticateUser(AuthenticateUserRequest request);
 
         Task<UserModel> GetUserByUsername(string username);
-
-
     }
 }

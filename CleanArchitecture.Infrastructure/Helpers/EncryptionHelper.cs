@@ -10,19 +10,16 @@ namespace CleanArchitecture.Infrastructure.Helpers
     {
         private SecurityProvider securityProvider;
 
-        private string salt;
-
         public EncryptionHelper(SecurityProvider securityProvider)
         {
             this.securityProvider = securityProvider;
-            this.salt = this.securityProvider.PasswordSalt;
         }
 
         public string EncryptPassword(string password)
         {
 
             var hash = MD5.Create();
-            var pass = this.salt + password;
+            var pass = this.securityProvider.PasswordSalt + password;
             var bytes = hash.ComputeHash(Encoding.ASCII.GetBytes(pass));
             var encrypted = BitConverter.ToString(bytes);
             var result = encrypted.Replace("-", "");
